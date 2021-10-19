@@ -1,0 +1,11 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #393939;
+  color: white;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  padding: 0px 18px;
+}
