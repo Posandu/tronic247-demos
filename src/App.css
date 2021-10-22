@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     min-height: 90vh;
+    overflow-x: hidden;
 }
 
 .main {
@@ -11,4 +12,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.ani {
+    animation: cooleffect 0.4s cubic-bezier(.79, .14, .15, .86);
+}
+
+@keyframes cooleffect {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
