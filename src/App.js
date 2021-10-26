@@ -43,7 +43,7 @@ function Hero() {
           style={{ transitionDelay: "1.6s" }}
           variant="contained"
         >
-          See the Demos
+          See the Demos (//////////)
         </Button>
       </Box>
     </div>
