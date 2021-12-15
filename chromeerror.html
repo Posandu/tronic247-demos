@@ -1,0 +1,107 @@
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta content="IE=edge" http-equiv=X-UA-Compatible>
+    <meta content="width=device-width,initial-scale=1" name=viewport>
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: "Whitney Book";
+            src: url(Whitney-Book-Font.otf) format("opentype");
+
+        }
+
+        *,
+        :after,
+        :before {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: inherit
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+
+        #c {
+            max-width: 500px
+        }
+
+        .h {
+            font-size: 24px;
+            font-weight: 500;
+            color: #37474f;
+            margin-bottom: 6px
+        }
+
+        .d {
+            text-transform: uppercase;
+            font-size: 11px;
+            color: #455a64;
+            margin-bottom: 14px
+        }
+
+        .i {
+            font-size: 13px;
+            color: #546e7a;
+            margin-bottom: 25px
+        }
+
+        #a {
+            display: flex;
+            justify-content: space-between
+        }
+
+        .b {
+            text-decoration: none;
+            background: #3f51b5;
+            padding: 8px 16px;
+            border-radius: 4px;
+            color: #fff;
+            user-select: none;
+            font-size: 13px;
+            transition: all .2s ease
+        }
+
+        .b:hover {
+            background: #303f9f
+        }
+
+        .b:focus {
+            background: #283593
+        }
+
+        .b.g {
+            color: #455a64;
+            background: 0 0 !important;
+            box-shadow: 0 0 0 1px #cfd8dc
+        }
+
+        .b.g:hover {
+            background: #eceff1 !important
+        }
+
+        .b.g:focus {
+            box-shadow: 0 0 0 1px #78909c
+        }
+    </style>
+</head>
+
+<body>
+    <div id=c>
+        <h1 class=h>Don't click anything</h1>
+        <p class=d>HTTP Error 1234</p>
+        <p class=i>Don't click anything. If you are seeing this page, you are not allowed to click anything.</p>
+        <p id=a>
+            <a class=b href=javascript:history.back()>Go back</a> <a class="b g" href=#>Go to home page</a>
+        </p>
+    </div>
+</body>
+
+</html>
